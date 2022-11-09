@@ -107,16 +107,16 @@ input, select, textarea {
 		overflow-x: hidden;
 	}
 
-		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
-		}
+	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+		-moz-animation: none !important;
+		-webkit-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+		-moz-transition: none !important;
+		-webkit-transition: none !important;
+		-ms-transition: none !important;
+		transition: none !important;
+	}
 
 
 /* Type */
@@ -3303,6 +3303,7 @@ hr {
 
 					#wrapper > section.intro > header > * {
 						margin-left: auto;
+						color:#ffffff;
 					}
 
 					#wrapper > section.intro > header:before {
